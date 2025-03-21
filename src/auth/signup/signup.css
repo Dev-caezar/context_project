@@ -7,7 +7,7 @@
     width: 50%;
     height: 100%;
     border-radius: 0px 60px 60px 0px;
-    background-color: black;
+    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,7 @@
     font-weight: bold;
     color: white;
     border: 2px solid white;
-    background-color: black;
+    background-color: blueviolet;
 }
 
 .signInBtn:hover{
@@ -100,8 +100,8 @@
     width: 90%;
     height: 50px;
     border-radius: 10px;
-    border: 2px solid black;
-    color: black;
+    border: 2px solid blueviolet;
+    color: white;
     padding: 10px;
 }
 
@@ -117,7 +117,7 @@
     width: 45%;
     height: 50px;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid blueviolet;
     padding: 10px;
 }
 
@@ -126,14 +126,14 @@
     height: 40px;
     border: none;
     border-radius: 8px;
-    background-color: black;
+    background-color: blueviolet;
     color: white;
     font-weight: bold;
 }
 
 .mySignUp:hover{
     background-color: lightgrey;
-    color: black;
+    color: blueviolet;
     cursor: pointer;
 }
 .error_message{

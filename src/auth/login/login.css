@@ -8,7 +8,7 @@
     width: 50%;
     height: 100%;
     border-radius: 60px 0px 0px 60px;
-    background-color: black;
+    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,7 @@
     font-weight: 200;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    color: black;
+    color: blueviolet;
 }
 
 .text {
@@ -57,13 +57,13 @@
     font-weight: bold;
     color: white;
     border: 2px solid white;
-    background-color: black;
+    background-color: blueviolet;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .signUp:hover {
     background-color: white;
-    color: black;
+    color: blueviolet;
     cursor: pointer;
     transform: scale(1.05); 
 }
@@ -82,7 +82,7 @@
 .login h1 {
     font-size: 55px;
     font-weight: 100;
-    color: black;
+    color: blueviolet;
 }
 
 .field {
@@ -103,7 +103,7 @@ input {
     height: 50px;
     border-radius: 15px;
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid blueviolet;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 .password{
@@ -132,13 +132,13 @@ input:focus {
     border-radius: 8px;
     font-weight: bold;
     color: black;
-    border: 2px solid black;
+    border: 2px solid blueviolet;
     background-color: white;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .signIn:hover {
-    background-color: black;
+    background-color: blueviolet;
     color: white;
     cursor: pointer;
     transform: scale(1.05); 

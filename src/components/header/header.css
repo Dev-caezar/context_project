@@ -1,5 +1,124 @@
 .header_body{
     width: 100%;
     height: 15vh;
-    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.header_wrapper{
+    width: 95%;
+    height: 100%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.profile_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid blueviolet;
+    overflow: hidden;
+
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.greetings{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.greetings h4{
+    font-size: 20px;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wave{
+    font-size: 25px;
+    color: blueviolet;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.search{
+    width: 40%;
+    height: 55%;
+    border-radius: 30px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.search_transaction{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+}
+.acct_type{
+    width: 25%;
+    height: 55%;
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.acct_type p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.acct_icon{
+    font-size: 20px;
+}
+
+.accts_type{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px;
+    font-family: tahoma;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.accts_type p:hover{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,16 +1,117 @@
 .dashboardBody{
     width: 100%;
     height: 100%;
+    min-height: max-content;
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    gap: 45px;
   
 }
-
-.acct_show{
-    width: 90%;
-    height: 250px;
-    border-radius: 15px;
-    background-color: black;
+.acct_details{
+    width: 62%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* padding: 10px; */
 }
+
+.details_header{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif; 
+   
+}
+.details_header h4{
+    font-size: 20px;
+    cursor: pointer;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.card_container{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    gap: 20px;
+}
+.card_front{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: blueviolet;
+    padding: 20px;
+}
+.card_header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+.card_amount{
+    width: 100%;
+    height: 80%;
+}
+.card_amount h4{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+.card_date{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.date{
+    display: flex;
+    gap: 10px;
+}
+.card_date p{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.card_type{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(175, 104, 241);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_back{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #253042;
+    padding: 20px;
+}
+.acct_table{
+    width: 100%;
+    height: 25%;
+}
+.acct_table h4{
+    color: blueviolet;
+}
+.chart{
+    width: 30%;
+    height: 95%;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+
 
