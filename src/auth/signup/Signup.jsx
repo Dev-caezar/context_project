@@ -81,7 +81,7 @@ const SignUp = () => {
         </div>
         </div>
         {state.error && <p className='error_message'>{state.error}</p>}
-        <button style={{backgroundColor: state.isDisabled? "red": "black"}} className='mySignUp' onClick={handleSubmit}>SIGN UP</button>
+        <button className='mySignUp' onClick={handleSubmit}>SIGN UP</button>
        </div>
      </div>
   )
